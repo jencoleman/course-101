@@ -1,0 +1,63 @@
+1. a method that returns the sum of two integers
+
+casual psuedocode
+
+- welcome user
+- ask user for an integer
+- save integer to variable
+- ask user for another integer
+- save interger to another variable
+- add the numbers together
+- return the addition answer
+
+formal psuedocode
+START
+
+- welcome user
+- ask user for integer
+GET integer from user
+SET num1 = user input
+
+-ask user for second integer
+GET integer from user
+SET num2 = user input
+
+SET answer = num1 + num2
+
+READ answer variable
+
+2. a method that takes an array of strings, and returns a string that is all those strings concatenated together
+
+string_array = [ 'g', 's', 'l']
+
+casual
+
+- set a variable equal to the answer, make it an empty string
+- iterate through each string, concating to the answer variable
+- return the answer variable
+
+formal
+START
+SET answer = ''
+SET input = user argument
+READ every string in from the argument array
+-concatenate every string to the answer string
+READ answer string
+
+3. a method that takes an array of integers, and returns a new array with every other element
+
+casual
+- set input array to a variable
+- set answer to empty array
+- iterate over every other of the input array, sending the values to the answer array
+- return asnwer array
+
+formal
+START
+
+SET answer = []
+SET input = user argument
+
+iterate over every other array index with each_index % 2 != 0
+push the array values to answer
+READ answer
